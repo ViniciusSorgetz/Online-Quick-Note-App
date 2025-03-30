@@ -1,7 +1,9 @@
 {
   "scripts": {
     "dev": "next dev",
-    "lint": "eslint . --ext .ts"
+    "eslint:check": "eslint . --ext .ts",
+    "prettier:check": "prettier . --check",
+    "prettier:write": "prettier . --write"
   },
   "dependencies": {
     "next": "^15.2.4",
@@ -17,6 +19,7 @@
     "@typescript-eslint/parser": "^8.28.0",
     "eslint": "^9.23.0",
     "eslint-config-next": "15.2.4",
+    "prettier": "^3.5.3",
     "typescript": "^5.8.2"
   }
 }
