@@ -1,1 +1,3 @@
 .github
+infra/generated
+infra/prisma
